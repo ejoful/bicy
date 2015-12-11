@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 160px 15px 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #eaeaea;
+    border-top: 1px solid #ddd;
+    float: left;
+    width: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/*头部导航栏*/
+.header {
+    height: 160px;
+    background-color: #eaeaea;
+    border-top: 1px solid #ddd;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.header .container .nav-pills > li:first-child {
+    float: left;
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    margin: 0 !important;
+    font-size: 36px;
+    background-color: #eaeaea;
+}
+.header .container .nav-pills > li {
+    float: left;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 !important;
+    font-size: 32px;
+    background-color: #31a7de;
+}
+.header .container .nav-pills > li:first-child > a {
+
+    color: #000;
+}
+
+.header .container .nav-pills > li > a {
+    height: 100%;
+    padding: 0;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+
+
+/*底部导航栏*/
+.footer .container .nav-pills > li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.footer .container .nav-pills > li > a {
+    font-size: 20px;
+    color: #333;
+}
